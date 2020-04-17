@@ -1,5 +1,5 @@
 # 简介
-- 用于 OpenWRT/LEDE 路由器上进行 Server酱 微信推送的插件
+- 用于 OpenWRT/LEDE 路由器上进行 Server酱 微信/Telegram 推送的插件
 - 基于 serverchan 提供的接口发送信息，Server酱说明：http://sc.ftqq.com/1.version
 - **基于斐讯 k3 制作，不同系统不同设备，请自行修改部分代码，无测试条件无法重现的 bug 不考虑修复**
 - 依赖 iputils-arping + curl 命令，安装前请 `opkg update`，小内存路由谨慎安装
@@ -19,6 +19,7 @@
 
 #### 说明
 - 潘多拉系统、或不支持 sh 的系统，请将脚本开头 `#!/bin/sh` 改为 `#!/bin/bash`，或手动安装 `sh`
+- 追新是没有意义的，没有问题没必要更新，上班事情忙完了，摸鱼又不会摸，只能靠写几行 bug ，才能缓解无聊这样子
 
 #### 已知问题
 - 直接关闭接口时，该接口的离线设备会忽略检测
